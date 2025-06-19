@@ -78,3 +78,5 @@ services:
     command: worker
     depends_on:
       - n8n
+
+#instalado por portainer via swarm 

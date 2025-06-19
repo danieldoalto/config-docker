@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Script para inicializar postgres, colocar no host em
+# /data/compose/11/init-data.sh
+
 set -e
 
 echo "Iniciando criação de banco de dados e usuário..."
