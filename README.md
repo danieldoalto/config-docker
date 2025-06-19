@@ -142,3 +142,4 @@ Este script é montado no contêiner `postgres` e executado automaticamente pelo
 - Este usuário receba todas as permissões necessárias para operar no banco de dados e no schema `public`, incluindo a capacidade de criar tabelas, sequências e funções futuras.
 
 Isso é feito de forma idempotente, ou seja, se o banco de dados ou o usuário já existirem, o script não tentará recriá-los, evitando erros em reinicializações.
+O path onde deve ser colocado :/data/compose/11/init-data.sh
