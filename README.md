@@ -143,4 +143,7 @@ Este script é montado no contêiner `postgres` e executado automaticamente pelo
 
 Isso é feito de forma idempotente, ou seja, se o banco de dados ou o usuário já existirem, o script não tentará recriá-los, evitando erros em reinicializações.
 O path onde deve ser colocado :/data/compose/11/init-data.sh
+<<<<<<< HEAD
 Testado em Ubunto 24.04
+=======
+>>>>>>> 1dd14e716b44e92fa3adfe009fea6c5ddbc8f7dc
